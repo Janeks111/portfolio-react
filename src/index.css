@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.2s ease-in-out;
+}
+
+html {
+  overflow-x: hidden !important;
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 100px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 100px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #303030;
+  border-radius: 100px;
+}
+
+/* img {
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+} */
+
+.navbar {
+  position: fixed;
+  margin: auto;
+  width: 100%;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+}
+
+.navbar .middle li a {
+  display: block;
+  cursor: pointer;
+}
+.navbar .middle li a:hover {
+  opacity: 0.8;
+}
+
+.shadow {
+  box-shadow: 0px 0px 24px -3px #d69e2e;
+}
+
+/* ------------custom cursor-------- */
+.cursor {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 2px solid;
+  transition: all 250ms ease-out;
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+.cursor2 {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  transition: width 0.3s, height 0.3s, opacity 0.3s;
+  z-index: 9999;
+}
+
+.hover,
+.cursorinnerhover {
+  opacity: 1;
+  width: 70px;
+  height: 70px;
+}
