@@ -1,5 +1,6 @@
 import {} from "react-icons/io";
 import { IoLogoGithub, IoLogoLinkedin, IoLogoInstagram } from "react-icons/io5";
+import CharacterImage from "/7.png"; // Importing the image
 
 const Hero = () => {
   return (
@@ -11,7 +12,7 @@ const Hero = () => {
         {/* ------- character picture ------- */}
         <img
           className="character-img rounded-full absolute bottom-0 left-[50%] transform translate-x-[-50%] w-[35vw] sm:w-[80vw] h-[35vw] sm:h-[80vw] object-cover shadow select-none"
-          src="../../public/7.png"
+          src={CharacterImage} // Using the imported image
           alt="Character Picture"
         />
         {/* ------- heading------ */}
