@@ -11,7 +11,7 @@ const Hero = () => {
         {/* ------- character picture ------- */}
         <img
           className="character-img rounded-full absolute bottom-0 left-[50%] transform translate-x-[-50%] w-[35vw] sm:w-[80vw] h-[35vw] sm:h-[80vw] object-cover shadow select-none"
-          src="../../public/IMG_0772.JPG"
+          src="../../public/6.jpg"
           alt="Character Picture"
         />
         {/* ------- heading------ */}
