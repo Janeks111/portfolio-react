@@ -16,11 +16,10 @@ const Conatct = () => {
       <div className="flex sm:flex-col items-start sm:items-center w-full sm:px-4 sm:gap-8">
         <div className="left flex-1">
           <h2 className="text-[35px] font-bold text-black dark:text-white">
-            Have You Any Project? <br /> Please Drop a Message
+            Do You Have Any Project? <br /> Please Drop a Message
           </h2>
           <p className="w-[78%] sm:w-[90%] text-[#5e5e5e] dark:text-[#9e9e9e]">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem,
-            repellendus!
+            Feel free to contact me.
           </p>
         </div>
         <div className="right flex-1 flex items-center justify-center w-full">
@@ -42,7 +41,7 @@ const Conatct = () => {
                 </label>
                 <input
                   className="  bg-[#e6e6e6] dark:bg-[#1f1f1f] p-2 rounded-[8px] text-[15px] text-black dark:text-white"
-                  placeholder="e.g, dusttodust94@icloud.com"
+                  placeholder="e.g, yourEmail@gmail.com"
                   type="email"
                 />
               </div>
